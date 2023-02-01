@@ -23,6 +23,36 @@ body {
     transition: transform .5s;
 }
 
+@media(max-width:760px){
+.card {
+    width: 100px;
+    height: 100px;
+    position: relative;
+
+    transform-style: preserve-3d;
+    transition: transform .5s;}
+}
+
+@media(max-width:600px){
+.card {
+    width: 80px;
+    height: 80px;
+    position: relative;
+
+    transform-style: preserve-3d;
+    transition: transform .5s;}
+}
+
+@media(max-width:480px){
+.card {
+    width: 60px;
+    height: 70px;
+    position: relative;
+
+    transform-style: preserve-3d;
+    transition: transform .5s;}
+}
+
 .cardfront {
     transform: rotateY(180deg);
     background-color: midnightblue;
@@ -53,6 +83,7 @@ body {
 
 #gameOver {
     position: absolute;
+    text-align: center;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.851);
@@ -75,7 +106,7 @@ body {
     color: white;
     box-shadow: 5px 5px 5px black;
     transition-property: background-color, padding;
-    transition-duration: 1s;
+    transition-duration: 300ms;
 }
 
 #restart:hover {
