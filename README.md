@@ -1,1 +1,1 @@
-Memory game developed with HTML, CSS and JavaScript / Jogo da Memória desenvolvido com HTML, CSS e JavaScript.
+Jogo da Memória, um dos projetos do curso de Desenvolvimento Web Full-Stack (PROGRAMADORBR) desenvolvido com HTML, CSS e JavaScript.
